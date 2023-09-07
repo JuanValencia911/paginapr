@@ -1,0 +1,117 @@
+/* Cuerpo de la página */
+body {
+    margin: 0;
+    /* Elimina los márgenes predeterminados del cuerpo */
+    align-items: center;
+    /* Centra verticalmente los elementos hijos */
+    justify-content: center;
+    /* Centra horizontalmente los elementos hijos */
+    height: 100vh;
+    /* Establece la altura del cuerpo al 100% del viewport (ventana gráfica) */
+}
+
+/* Parte 1 taller/
+/* Encabezado "NAVBAR" */
+header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Establece la fuente */
+    background-color: red;
+    /* Establece el fondo en rojo */
+    text-align: center;
+    /* Centra el texto horizontalmente */
+    margin-bottom: 110px;
+    /* Espacio entre el encabezado y la imagen */
+}
+
+h1 {
+    color: white;
+    /* Establece el color del texto en blanco */
+    font-size: 62px;
+    /* Tamaño de fuente de 62 píxeles */
+    margin: 0;
+    /* Elimina los márgenes predeterminados del encabezado */
+}
+
+/* *Parte 2 taller*/
+/* Figure "IMAGEN" */
+figure {
+    background-color: white;
+    /* Establece el fondo blanco */
+    border: 2px solid grey;
+    /* Borde negro de 1 píxel */
+    padding: 24px;
+    /* Espacio de relleno de 24 píxeles en todos los lados */
+    margin-top: 40px;
+    /* Espacio más grande entre el título y la imagen */
+    margin-left: 150px;
+    /* Márgenes izquierdos de 150 píxeles */
+    margin-right: 150px;
+    /* Márgenes derechos de 150 píxeles */
+}
+
+figure img {
+    display: block;
+    /* Hace que la imagen sea un bloque en lugar de un elemento en línea */
+    margin: 0 auto;
+    /* Centra la imagen horizontalmente */
+}
+
+/*Boton*/
+button {
+    background-color: red;
+    /* Establece el fondo del botón en rojo */
+    color: white;
+    /* Establece el color del texto en blanco */
+    border: 1px solid gray;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Define la fuente del texto */
+    width: 300px;
+    /* Aumenta el ancho del botón */
+    height: 80px;
+    /* Aumenta la altura del botón */
+    margin: 0 auto;
+    /* Centra horizontalmente el botón con margen automático en los lados izquierdo y derecho */
+    text-align: center;
+    /* Centra el texto horizontalmente dentro del botón */
+    display: block;
+    /* Hace que el botón sea un elemento en bloque, ocupando todo el ancho disponible */
+    margin-top: 20px;
+    /* Agrega un margen superior de 20 píxeles para separar el botón de la imagen */
+}
+
+/*Etiqueta h2 dentro del boton*/
+h2 {
+    margin-top: 0;
+    /*Comentado: Elimina el margen superior (0 píxeles)*/
+    margin-bottom: 0;
+    /* Comentado: Elimina el margen inferior (0 píxeles) */
+    font-size: 35px;
+    /* Establece el tamaño de fuente en 35 píxeles */
+}
+
+/* *Parte 3 taller*/
+/* FOOTER" */
+footer {
+    padding: 25px;
+    /* Define el espacio de relleno en todas las direcciones, pero hay un error de sintaxis, debería ser "25px" */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* Define la fuente del texto */
+    background-color: red;
+    /* Establece el color de fondo en rojo */
+    color: white;
+    /* Establece el color del texto en blanco */
+    font-size: 80px;
+    /* Aumenta el tamaño de fuente dentro del footer a 80 píxeles */
+    text-align: center;
+    /* Centra el texto horizontalmente dentro del footer */
+    margin-top: 15px;
+    /* Agrega un margen superior de 15 píxeles */
+    margin-bottom: 0;
+    /* Elimina el margen inferior */
+    position: absolute;
+    /* Establece la posición absoluta */
+    left: 0;
+    /* Ancla el footer a la izquierda */
+    right: 0;
+    /* Ancla el footer a la derecha */
+}
